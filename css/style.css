@@ -1,0 +1,113 @@
+body {
+    font-family: Arial;
+}
+ 
+.portfolioFilter a { 
+    margin-right: 10px; 
+    color:#666;
+    text-decoration:none;
+}
+ 
+.portfolioFilter a.current { 
+    font-weight:bold;
+}
+ 
+img {
+    margin:5px;
+}
+ 
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.photo, .video, .sound, .animation, .apps, .games, .graphic {
+	float: left;
+	margin: 0 0 0 0;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6{
+	float: left;
+	width:100%;
+	height:100%;
+	background-color:#09F;
+}
+
+img[src^="images/submissions/"]{
+	float: left;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+#landing{
+	width:100%;
+	height:100%;
+	background-color:#09F;
+}
+
+h1{
+	background-color:#FFF;
+	text-align:center;
+}
+
+h2, h3, h4{
+	text-align:center;
+	color:#FFF;
+}
+
+p{
+	color:#FFF;
+	text-align:center;
+	font-size:large;
+	padding:0 20px 0 20px;
+}
+
+#welcomePara{
+	text-align:left;
+	padding:0 20px 0 20px;
+	font-size:large;
+}
+
+#map{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+}
+
+.gap{
+	height:50px;
+}
+
+.logo{
+	padding:30px;
+}
+
+img{
+	padding:10px;
+}
+
+a{
+	color:#FF0;
+}
