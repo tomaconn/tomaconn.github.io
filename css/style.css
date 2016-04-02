@@ -137,3 +137,104 @@ a{
 	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	position: absolute;
 }
+
+footer{
+	background-color:#09F;
+	color:#FFF;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*Media Queries*/
+@media (max-width:1920px) and (orientation:landscape){
+	p, #welcomePara{
+		font-size:30px;
+	}
+
+	.logo, .logo:hover{
+		margin-left:auto;
+		margin-right:auto;
+		width:480px;
+		height:300px;
+	}
+	
+	img{
+		width:800px;
+		height:300px;
+	}
+	
+	.gap{
+		height:90px;
+	}
+
+	h1{
+		font-size:70px;
+	}
+	
+	h2{
+		font-size:50px;
+	}
+	
+	h4{
+		font-size:30px;
+	}
+	
+	.portfolioFilter a { 
+		font-size:30px;
+	}
+}
+
+@media (max-width:1920px) and (orientation:portrait){
+	.logo, .logo:hover{
+		width:45%;
+		height:200px;
+	}
+}
+
+@media (max-width:1280px) and (orientation:landscape){
+	#landing{
+		height:100vh;
+	}
+	
+	#texttween .text {
+		font-size:70px;
+	}
+	
+	.gap{
+		height:50px;
+	}
+	
+	.logo, .logo:hover{
+		width:45%;
+		height:240px;
+	}
+}
+
+@media (max-width:1280px) and (orientation:portrait){
+	
+	#landing{
+		height:700px;
+	}
+	
+	.container{
+		height:100px;
+	}
+	
+	.container a{
+		float:left;
+}
+
+	#texttween .text {
+		font-size:90px;
+		width:80%;
+	}
+	
+	img{
+		width:80%;
+	}
+	
+	.gap{
+		height:90px;
+	}
+}
